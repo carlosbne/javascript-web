@@ -53,3 +53,8 @@
     text-align: center;
     width: 280px;
   }
+
+  input[type=button]:active{
+    transition: 1ms; 
+    background-color: #cccccc;
+  }
