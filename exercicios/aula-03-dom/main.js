@@ -1,8 +1,14 @@
+const apagar = document.querySelector('.apagarbtn');
 const tintas = document.querySelectorAll('.item');
-const mostrar = document.querySelector('.btn');
 
+//função utilizando o forEach();
 function mostraTintas(){
-    mostrar.addEventListener('click', () => {
-        console.log('click');
-    })
+    tintas.forEach(Element => Element.style.visibility = "visible");
 }
+
+//função anonima utilizando o For();
+apagar.addEventListener('click', () =>{
+    for(let i = 0; i < tintas.length; i++){
+        tintas[i].style.visibility = "hidden";
+    }
+})
