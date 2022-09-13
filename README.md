@@ -1,2 +1,2 @@
 # javascript-web
- exercicíos do cruso de javascript para web - Alura
+ exercicíos do curso de javascript para web - Alura
