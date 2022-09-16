@@ -56,6 +56,14 @@ function atualizaEstatisticas(peca){
     estatisticas.forEach( (elemento) => {
         elemento.textContent = parseInt(elemento.textContent) + pecas[peca] [elemento.dataset.estatistica]
     })
+}       
+
+function alterarRobo(){
+    const imagensRobos = document.querySelectorAll('.robo');
+    
+    for(let i = 0; i < imagensRobos.length; i++){
+        imagensRobos[i].classList.add('.mostrar-robo');
+    }
 }
 
 

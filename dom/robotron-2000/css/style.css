@@ -37,12 +37,22 @@ main {
     position: relative;
 }
 
+.mostrar-robo{
+    height: 110%;
+    z-index: 1;
+    position: absolute;
+    left: -20%;
+    top: -5%;
+    visibility: visible;
+}
+
 .robo {
     height: 110%;
     z-index: 1;
     position: absolute;
     left: -20%;
     top: -5%;
+    visibility: hidden;
 }
 
 .titulo {
@@ -129,6 +139,16 @@ main {
 
 .linha {
     border-color: var(--main-cinza);
+}
+
+button.producao{
+    font-family: 'Teko';
+}
+
+button.producao:hover{
+    cursor: pointer;
+    background: var(--main-preto);
+    color: var(--main-branco)
 }
 
 .producao {
